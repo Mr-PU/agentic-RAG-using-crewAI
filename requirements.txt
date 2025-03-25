@@ -1,0 +1,10 @@
+faiss-cpu
+numpy
+streamlit
+requests
+langchain
+sentence-transformers
+crewai
+ollama
+langchain-community
+pypdf
