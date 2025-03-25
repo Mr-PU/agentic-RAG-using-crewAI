@@ -8,6 +8,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 from crewai import Agent, Task, Crew
 import ollama
+from dotenv import load_dotenv
 
 # Set up Streamlit UI
 st.title("Agentic RAG using Crew AI")
@@ -18,6 +19,8 @@ embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 # Firecrawl API configuration
 FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_API_KEY")
 FIRECRAWL_API_URL = "https://api.firecrawl.dev/v0/search"
+
+MODEL_NAME = os.getenv("MODEL_NAME", "ollama/llama3")  # Default to "ollama/llama3" if not set
 
 # Load and process documents (support both PDF and TXT)
 def load_and_process_documents(file_path):
@@ -85,7 +88,7 @@ def create_crewai_agents():
         goal="Retrieve relevant information from the document database",
         backstory="An AI agent specialized in retrieving information from documents.",
         verbose=True,
-        llm="ollama/llama3"
+        llm=MODEL_NAME
     )
 
     online_searcher_agent = Agent(
@@ -93,7 +96,7 @@ def create_crewai_agents():
         goal="Search the web for information if it is not found in the documents",
         backstory="An AI agent specialized in searching the web for information.",
         verbose=True,
-        llm="ollama/llama3"
+        llm=MODEL_NAME
     )
 
     return retriever_agent, online_searcher_agent
