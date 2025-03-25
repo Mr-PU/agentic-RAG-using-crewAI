@@ -16,6 +16,9 @@ The "Agentic RAG using CrewAI" project is a Retrieval-Augmented Generation (RAG)
 #### Purpose
 The project aims to demonstrate an agentic RAG system where AI agents collaborate to provide accurate, context-aware responses. It’s designed for users who want to query private documents locally while supplementing with online data when needed, all without relying on external API-based LLMs.
 
+![Screenshot of Agentic RAG](https://github.com/Mr-PU/agentic-RAG-using-crewAI/blob/main/1.png?raw=true)
+
+
 #### GitHub Repository
 - **Link**: [https://github.com/Mr-PU/agentic-RAG-using-crewAI](https://github.com/Mr-PU/agentic-RAG-using-crewAI)
 - **Assumption**: Since I can’t access the repository directly, I’ll base this description on the code you provided, assuming it matches the repository’s main script (e.g., `app.py`).
@@ -40,16 +43,16 @@ The project aims to demonstrate an agentic RAG system where AI agents collaborat
 2. **Install Python Dependencies**:
    - Create a `requirements.txt` file with the following content (based on your code):
      ```
-     faiss-cpu==1.8.0
-     numpy==1.26.4
-     streamlit==1.32.0
-     requests==2.31.0
-     langchain==0.1.16
-     sentence-transformers==2.6.1
-     crewai==0.28.8
-     ollama==0.1.8
-     pypdf==4.1.0
-     python-dotenv==1.0.1
+     faiss-cpu
+     numpy
+     streamlit
+     requests
+     langchain
+     sentence-transformers
+     crewai
+     ollama
+     pypdf
+     python-dotenv
      ```
    - Install the dependencies:
      ```bash
