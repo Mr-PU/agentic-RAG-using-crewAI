@@ -43,16 +43,16 @@ The project aims to demonstrate an agentic RAG system where AI agents collaborat
 2. **Install Python Dependencies**:
    - Create a `requirements.txt` file with the following content (based on your code):
      ```
-     faiss-cpu==1.8.0
-     numpy==1.26.4
-     streamlit==1.32.0
-     requests==2.31.0
-     langchain==0.1.16
-     sentence-transformers==2.6.1
-     crewai==0.28.8
-     ollama==0.1.8
-     pypdf==4.1.0
-     python-dotenv==1.0.1
+     faiss-cpu
+     numpy
+     streamlit
+     requests
+     langchain
+     sentence-transformers
+     crewai
+     ollama
+     pypdf
+     python-dotenv
      ```
    - Install the dependencies:
      ```bash
