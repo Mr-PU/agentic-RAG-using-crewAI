@@ -19,12 +19,6 @@ The project aims to demonstrate an agentic RAG system where AI agents collaborat
 ![Screenshot of Agentic RAG](https://github.com/Mr-PU/agentic-RAG-using-crewAI/blob/main/1.png?raw=true)
 
 
-#### GitHub Repository
-- **Link**: [https://github.com/Mr-PU/agentic-RAG-using-crewAI](https://github.com/Mr-PU/agentic-RAG-using-crewAI)
-- **Assumption**: Since I can’t access the repository directly, I’ll base this description on the code you provided, assuming it matches the repository’s main script (e.g., `app.py`).
-
----
-
 ### Installation
 
 #### Prerequisites
