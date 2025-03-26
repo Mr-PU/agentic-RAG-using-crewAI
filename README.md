@@ -1,5 +1,7 @@
 ### Project Description: Agentic RAG using CrewAI and Ollama
 
+![Screenshot of Agentic RAG](https://github.com/Mr-PU/agentic-RAG-using-crewAI/blob/main/1.png?raw=true)
+
 #### Overview
 The "Agentic RAG using CrewAI" project is a Retrieval-Augmented Generation (RAG) system that leverages the CrewAI framework to orchestrate autonomous AI agents for answering user queries. It combines local document retrieval with online search capabilities, using a modular agent-based approach. The system processes uploaded documents (PDF or TXT), retrieves relevant information from them, and falls back to an online search if the information isn’t found locally. Responses are generated using a local language model (via Ollama), and users are informed whether the answer came from the document or the web.
 
@@ -15,9 +17,6 @@ The "Agentic RAG using CrewAI" project is a Retrieval-Augmented Generation (RAG)
 
 #### Purpose
 The project aims to demonstrate an agentic RAG system where AI agents collaborate to provide accurate, context-aware responses. It’s designed for users who want to query private documents locally while supplementing with online data when needed, all without relying on external API-based LLMs.
-
-![Screenshot of Agentic RAG](https://github.com/Mr-PU/agentic-RAG-using-crewAI/blob/main/1.png?raw=true)
-
 
 ### Installation
 
